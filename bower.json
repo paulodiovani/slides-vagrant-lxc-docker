@@ -4,7 +4,7 @@
   "authors": [
     "Paulo Diovani <paulo@diovani.com>"
   ],
-  "description": "A comparison of virtualization, Linux Containers and Docker, covering the basics, how to use and problems that each one solves.",
+  "description": "A comparison of virtualization, Linux Containers and Docker.",
   "main": [
     "css/*.css",
     "img/**/*.{jpg,png,svg}",
