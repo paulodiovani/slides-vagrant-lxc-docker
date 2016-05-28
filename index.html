@@ -18,8 +18,14 @@
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/custom.css">
 
-        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-        <script src="./js/print-pdf.js"></script>
+        <!-- Printing and PDF exports -->
+        <script>
+          var link = document.createElement( 'link' );
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = window.location.search.match( /print-pdf/gi ) ? './bower_components/reveal.js/css/print/pdf.css' : './bower_components/reveal.js/css/print/paper.css';
+          document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
 
         <!--[if lt IE 9]>
         <script src="./bower_components/reveal.js/lib/js/html5shiv.js"></script>
@@ -82,7 +88,21 @@
 
         <script src="./bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="./bower_components/reveal.js/js/reveal.js"></script>
-        <script src="./js/reveal-init.js"></script>
+        <script>
+          // More info https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            history: true,
+            controls: false,
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+              { src: './bower_components/reveal.js/plugin/markdown/marked.js' },
+              { src: './bower_components/reveal.js/plugin/markdown/markdown.js' },
+              { src: './bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: './bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+            ]
+          });
+        </script>
         <script src="./js/pointer-fix.js"></script>
     </body>
 </html>
