@@ -20,7 +20,7 @@ _Box_ é como são chamadas as imagens do _Vagrant_
 
 ====
 
-```console
+```
 ➜  ~  vagrant init hashicorp/precise32
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read

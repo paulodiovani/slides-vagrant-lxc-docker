@@ -25,7 +25,7 @@ Arquitetura de containers
 
 ====
 
-```console
+```
 ➜  ~ lxc-create -t download -n my-container
 ---
 
@@ -60,7 +60,7 @@ para escolha.
 
 ====
 
-```console
+```
 ➜  ~ lxc-start -n my-container -d
 
 ➜  ~ lxc-ls -f
@@ -88,7 +88,7 @@ Visualiza informações do container.
 
 ====
 
-```console
+```
 ➜  ~ lxc-attach -n my-container
 
 root@my-container:/#

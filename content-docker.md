@@ -27,7 +27,7 @@ redhat.com <!-- .element: class="credits" -->
 
 ====
 
-```console
+```
 ➜  ~  docker pull hello-world
 latest: Pulling from hello-world
 
@@ -43,7 +43,7 @@ Status: Downloaded newer image for hello-world:latest
 
 ====
 
-```console
+```
 ➜  ~  docker run hello-world
 
 Hello from Docker.
@@ -100,7 +100,7 @@ Exemplo de Dockerfile
 
 ====
 
-```console
+```
 ➜  ~  docker build -t docker-whale .
 Sending build context to Docker daemon 2.048 kB
 Sending build context to Docker daemon
@@ -117,7 +117,7 @@ Successfully built 9970f489cd29
 
 ====
 
-```console
+```
 ➜  ~  docker run docker-whale
  ____________________________
 < Just to have it is enough. >
