@@ -9,7 +9,7 @@ _powered by: [reveal.js](http://lab.hakim.se/reveal-js/)_
 <small>[http://lab.hakim.se/reveal-js/](http://lab.hakim.se/reveal-js/)</small>
 
 <a class="licence" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-    ![cc-by-nc-sa](../img/cc-by-nc-sa.png)
+    ![cc-by-nc-sa](img/cc-by-nc-sa.png)
     Licença Creative Commons Atribuição -
     Não comercial - Compartilhamento pela
     mesma licença 4.0 Internacional
