@@ -1,0 +1,27 @@
+{
+  "name": "slides-vagrant-lxc-docker",
+  "homepage": "https://github.com/paulodiovani/slides-vagrant-lxc-docker",
+  "authors": [
+    "Paulo Diovani <paulo@diovani.com>"
+  ],
+  "description": "A comparison of virtualization, Linux Containers and Docker, covering the basics, how to use and problems that each one solves.",
+  "main": "index.html",
+  "keywords": [
+    "slides",
+    "vagrant",
+    "lxc",
+    "linux",
+    "containers",
+    "docker",
+    "virtualization"
+  ],
+  "license": "CC-BY-NC-SA",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
